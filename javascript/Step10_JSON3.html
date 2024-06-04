@@ -9,7 +9,6 @@
     <button id="printBtn">출력하기</button>
     <button id="printBtn2">출력하기2</button>
     <button id="printBtn3">출력하기3</button>
-    <button id="printBtn4">출력하기4</button>
     <ul id="friends">
         
     </ul>
@@ -50,7 +49,7 @@
         
 
         //백틱과 insertAdjacentHTML 를 이용한 입력방법 (한 줄로)
-        document.querySelector("#printBtn4").addEventListener("click",()=>{
+        document.querySelector("#printBtn3").addEventListener("click",()=>{
             const data5=`<li>${JSON.parse(data)}</li>`;
             document.querySelector("#friends").insertAdjacentHTML("beforeend", data5);
 
